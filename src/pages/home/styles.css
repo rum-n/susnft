@@ -1,0 +1,29 @@
+.home-wrapper {
+    width: 80%;
+    margin: auto;
+}
+
+.intro {
+    text-align: center;
+    line-height: 1.5rem;
+}
+
+.intro h1 {
+    margin-top: 3rem;
+    font-size: 2.5rem;
+}
+
+.projects-wrapper {
+    width: 100%;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.project-card {
+    height: 10rem;
+    width: 30%;
+    border: 1px solid #4c1353;
+    border-radius: 6px;
+}
