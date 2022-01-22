@@ -19,11 +19,48 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .project-card {
-    height: 10rem;
-    width: 30%;
-    border: 1px solid #4c1353;
+    width: 23%;
     border-radius: 6px;
+    color: white;
+    background: #4b135346;
+    margin-bottom: 2rem;
+}
+
+.project-details {
+    padding: 0 1rem;
+}
+
+.nft-img {
+    width: 50%;
+    border-radius: 6px;
+}
+
+.project-details a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.project-details p {
+    word-wrap: break-word;
+}
+
+.project-details p span {
+    color: #aaaaaa;
+}
+
+.links ul {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    justify-content: space-between;
+}
+
+.links ul li {
+    display: inline-block;
 }
