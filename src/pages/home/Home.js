@@ -13,8 +13,9 @@ export default function Homepage() {
     <React.Fragment>
       <div className='home-wrapper'>
           <div className="intro">
-              <h1>No more rug pulls!</h1>
-              <h2>Seen a sus NFT project? Report so others can avoid getting scammed.</h2>
+              <h1>No more NFT rug pulls!</h1>
+              <h2>A community-driven database of suspicious NFT projects.<br/> Report a project so others can avoid getting scammed.</h2>
+              {/* <h2>Seen a sus NFT project? Report so others can avoid getting scammed.</h2> */}
           </div>
 
           <div className="projects-wrapper">

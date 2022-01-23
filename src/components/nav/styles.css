@@ -1,11 +1,26 @@
 .navbar {
     width: 100%;
+    display: inline;
 }
 
 .logo {
-    text-align: center;
-    font-size: 1.6rem;
-    font-weight: 600;
+    margin: 2rem auto 0 auto;
+    width: 10rem;
+}
+
+.logo img {
+    width: 10rem;
+}
+
+.beta {
+    color: rgb(230, 230, 230);
+    background-color: rgb(66, 66, 66);
+    border-radius: 6px;
+    padding: 0.2rem 0.6rem;
+    width: fit-content;
+    margin-top: 0.2rem;
+    margin-left: 70%;
+    font-size: 0.7rem;
 }
 
 .submit-btn {
