@@ -1,4 +1,4 @@
-export default [
+const projectData = [
     {
         "projectTitle": "Solana Doodle Apes",
         "imgUrl": "https://solanadoodleapes.com/wp-content/uploads/2021/12/477.png",
@@ -101,3 +101,5 @@ export default [
         "description": "Not 100%, but very suspicious. The roadmap is the same as Solana Doodle Apes. Similar website. They have a mod on their team that is also a mod on Doodle Bunnies and is a member of Solana Doodle Apes LLC."
     },
 ]
+
+export default projectData;

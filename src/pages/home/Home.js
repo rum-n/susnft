@@ -6,8 +6,8 @@ import { SiDiscord, SiTwitter } from 'react-icons/si';
 import { BsGlobe} from 'react-icons/bs';
 
 export default function Homepage() {
-  const [loading, setLoading] = useState(false);
-  const [data, setData] = useState(projectData);
+  // const [loading, setLoading] = useState(false);
+  const [data] = useState(projectData);
 
   return (
     <React.Fragment>

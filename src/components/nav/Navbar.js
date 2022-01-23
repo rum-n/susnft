@@ -7,7 +7,7 @@ export default function Navbar() {
     return (
       <div className='navbar'>
         <div className="logo" >
-          <img src={logo}/>
+          <img src={logo} alt="SUS NFT"/>
           <p className="beta">BETA</p>
         </div>
           <a href="https://tally.so/r/3jgR4w"><button className="submit-btn">Submit a project</button></a>
